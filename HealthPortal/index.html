@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICAP_CLONE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo"></div>
+            </div>
+        
+            <div class="nav-navigation">
+                    <a class="add-nav add-first border" href="#">ESPAÑOL</a>
+                    <a class="add-nav add-sec border" href="#">HELP</a>
+                    <p class="add-nav add-third">LOGIN</p>                 
+            </div>
+        </div>
+        
+        <div class="hero">
+            <div class="box1">
+                <div class="hero-left">
+                    <h4 class="left">WELCOME TO</h4>
+                    <h1 class="left-sec">Montana Healthcare Programs</h1>
+                    <div class="mt-logo">
+                            <img class="mt"
+                                src="bannerLogo.png"
+                                alt="MPATH Logo"></img>
+                    </div>
+                
+                    <div class="hero-out out">
+                    Montana's Program for Automating and Transforming Healthcare (MPATH)
+                    </div>
+                    <div class="hero-out">
+                        <b><a href="#"
+                        target="_blank"> Department of Public Health and Human Services
+                        </a></b>
+                    </div>
+                </div>
+            </div>    
+            <div class="box2">
+                <div class="hero-right">
+                    <div class="hero-right-sub">ACCESS YOUR ACCOUNT</div>
+                        <form>
+                            <div class="form-group">
+                                <div class="user">
+                                    <div class="username">
+                                        <input type="text" maxlength="256" autocomplete="off"
+                                            class="form-control"
+                                            name="username"
+                                            placeholder="Username">  
+                                    </div>
+                                    <div class="form-icon">
+                                        <div id="tooltip">
+                                            <i class="fa-solid fa-question"></i>                      
+                                        </div>
+                                        <!-- <p id="tooltip-text">
+                                        Please enter your username that is set during the account creation process.
+                                        </p> -->
+                                    </div>
+                                </div>                           
+                                <div class="pass">
+                                    <div class="password">                                     
+                                        <input autocomplete="off" type="password"
+                                            class="form-control"
+                                            id="exampleInputPassword1" name="password" placeholder="Password">
+                                    </div>
+                                    <div class="form-icon">
+                                        <div id="tooltip">
+                                            <i class="fa-solid fa-question"></i>                      
+                                        </div>
+                                            <!-- <p id="tooltip-text">
+                                            Please enter your password that is set during the account creation process.
+                                            </p> -->
+                                    </div>
+                                </div>  
+                                <div class="login">
+                                    <button type="submit" style="width: 100%"
+                                                    onclick="submitForm('loginFormHeader','Y');return false;">
+                                                    Log In
+                                    </button>
+                                </div> 
+                                <div class="whitetext">
+                                    <a href="#">Forgot Password?</a>
+                                </div>
+                                <div class="mt-1 whitetext">
+                                    <a href="#">Create New Account</a>
+                                </div>
+                                <div class="mt-1 whitetext">
+                                    <a href="#">State Employee Log in</a>
+                                </div>                        
+                            </div>                           
+                        </form>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <!-- </div> 
+        </div> -->
+    </header>
+    <div class="main">
+        <div class="provider boxes">
+            <div class="prov-mem">
+                <img style="height: 15%; width: 15%"
+                    src="plus-image.png"
+                    alt="Navigate to PROVIDER Page"></img>
+            </div>
+            <h5 class="title">
+                <b>PROVIDER</b>
+            </h5>
+            <div class="content-text">
+                <small class="mb-3">If you are a Montana Healthcare Programs Provider or are interested in becoming a Montana Healthcare Programs Provider, click here.</small>
+            </div>
+        </div>
+
+        <div class="member boxes">
+            <div class="prov-mem">
+                <img style="height: 15%; width: 15%"
+                    src="member-image.jpg"
+                    alt="Navigate to MEMBER Page"></img>
+            </div>
+            <h5 class="title">
+                <b>MEMBER</b>
+            </h5>
+            <div class="content-text">
+                <small class="mb-3">If you are enrolled in Montana Healthcare Programs (Medicaid, HMK, HELP Program)  or are interested in applying for assistance, click here. </small>
+            </div>
+        </div>
+    </div>
+    <div class="announce">
+        <div class="ann-align">
+                <h3 class="ann">
+                    Announcements
+                </h3>
+                <hr>
+        </div>
+
+        <div class="dept">
+            <a href="#" target="_blank">  
+                <img class="dept-logo"
+                    src="DepartmentLogo.png"
+                    alt="Click here to go to montana dphhs site">
+                </img>
+            </a>
+                 
+        
+                <div class="dept-cont">
+                    <div class="mt-5  pt-2 fs-20">
+                    There are no current announcements
+                    </div>
+                </div>
+        </div>
+        <div class="dept-cont2">
+            <div >
+                Click
+                <a href="#">
+                    <b class="col">here </b>
+                </a>
+                to view older announcements.
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="foot-panel">
+            <ul class="list-items">
+                    <a class="list" target="_blank" href="#" >
+                    <b>PRIVACY AND SECURITY</b></a>
+                                
+                    <a class="lists" target="_blank" href="#" >
+                    <b>ACCESSIBILITY</b></a>
+
+                    <a class="lists" target="_blank" href="#" >
+                    <b>LANGUAGE ASSISTANCE</b></a>
+            </ul>
+            <ul class="list-items2">	
+                    <a class="list2-1" target="_blank"
+                    href="#" aria-label="German German language assistance page" >
+                            Deutsch</a>
+                 |
+                    <a class="list2" target="_blank"
+                    href="#" aria-label="Chinese Chinese language assistance page" >
+                    繁體中文</a>
+                 |
+                    <a class="list2" target="_blank"
+                    href="#" aria-label="Japanese Japanese language assistance page" >
+                            日本語</a>
+                 |
+                    <a class="list2" target="_blank"
+                    href="#" aria-label="Tagalog Tagalog language assistance page" >
+                            Tagalog</a>
+                 |
+                    <a class="list2" target="_blank"
+                    href="#" aria-label="French French language assistance page" >
+                            Français</a>
+                 |
+                    <a class="list2" target="_blank"
+                    href="#" aria-label="Russian Russian language assistance page" >
+                            Русский</a>
+                 |
+                    <a class="list2" target="_blank"
+                    href="#" aria-label="Korean Korean language assistance page" >
+                            한국어</a>
+                 |
+                    <a class="list2" target="_blank"
+                    href="#" aria-label="Arabic Arabic language assistance page" >
+                            العربية</a>
+                 |
+                    <a class="list2" target="_blank"
+                    href="#" aria-label="Thai Thai language assistance page" >
+                            ไทย</a>
+                 |
+                    <a class="list2" target="_blank"
+                    href="#" aria-label="Norwegian Norwegian language assistance page" >
+                            Norsk</a>
+                 |
+                    <a class="list2" target="_blank"
+                    href="#" aria-label="Vietnamese Vietnamese language assistance page" >
+                            Tiếng Việt </a>
+                 |
+                    <a class="list2" target="_blank"
+                    href="#" aria-label="Ukrainian Ukrainian language assistance page" >
+                            український</a>
+                 |
+                    <a class="list2" target="_blank"
+                    href="#" aria-label="Dutch Dutch language assistance page" >
+                            Pennsilfaanisch Deitsch</a>
+                 |
+                    <a class="list2" target="_blank"
+                    href="#" aria-label="Italian Italian language assistance page" >
+                            Italiano</a>
+        </ul>
+
+        </div>    
+    </footer>
+</body>
+</html>
